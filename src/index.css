@@ -1,13 +1,90 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Logo:hover {
+  cursor: pointer;
+}
+
+.SubmitButton:hover {
+  cursor: pointer;
+}
+.main {
+  background-color: rgb(201, 220, 220);
+}
+.main h1 {
+  text-align: center;
+  font-size: 4em;
+  margin: 0;
+}
+.create {
+  display: flex;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.create h4 {
+  font-size: 1.7em;
+  margin-bottom: 10px;
+  margin-top: 1.7em;
+}
+
+.ip {
+  width: 50em;
+  height: 3.1rem;
+  background-color: #d6e4e5;
+  border: 1px solid black;
+  text-decoration: none;
+}
+
+.create input {
+  font-size: 20px;
+}
+
+.inputBtn {
+  margin-top: 3rem;
+  width: 14rem;
+  height: 3rem;
+  background-color: rgb(179, 235, 187);
+}
+
+.inputBtn:hover {
+  background-color: rgb(11, 166, 34);
+}
+
+/*Interview Page styling */
+
+.portfolio_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2.5rem;
+}
+
+.portfolio_item {
+  background: rgb(204, 196, 196);
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  padding: 1.2rem;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.portfolio_item ul li {
+  list-style-type: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.portfolio_item button {
+  height: 2.5em;
+  margin-top: 1rem;
+  border-radius: 0.7rem;
+  padding: 0.3em;
+  background: rgb(157, 187, 212);
+  color: black;
+}
+
+.portfolio_item h1 {
+  color: green;
 }
